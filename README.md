@@ -23,7 +23,9 @@ This form is for learning and UI demonstration purposes only — it does not con
 
 ## 🛠️ How to Use
    - Download or clone this project.
-   - Open index.html in any web browser.
+   - npm install
+   - npm start
+   - Open http://localhost:3000 in any web browser.
    - Try switching between Login and Signup forms.
 
 ## 📸 Screenshot
