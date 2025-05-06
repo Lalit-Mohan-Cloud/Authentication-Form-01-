@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body style="background-image: url('image.jpg'); 
+            background-size: cover; 
+            background-repeat: no-repeat;">
+
+    <div class="w-full h-[600px] flex justify-center items-center">
+       
+        <div class="w-[200px] h-[300px] md:w-[250px] md:h-[360px] lg:w-[360px] lg:h-[440px]
+        flex flex-col bg-white
+        justify-center items-center gap-4">
+           
+            <h1 class="font-extrabold text-[25px] text-violet-900
+            -mt-[70px]" id="title">
+                Sign Up
+            </h1>
+           
+            <div class="w-9 h-1 bg-black -mt-[12px] rounded-lg
+            mb-[25px]">
+
+            </div>
+           
+            <input type="text" placeholder="Name" id="name"
+            class="px-2 py-2 border rounded-sm bg-gray-200 
+            font-bold w-[280px] 
+            transition ease-in-out delay-150">
+           
+            <input type="email" placeholder="email" id="email" 
+            class="px-2 py-2 border rounded-sm bg-gray-200 
+            font-bold w-[280px]">
+           
+            <input type="password" placeholder="password" 
+            id="password" 
+            class="px-2 py-2 border rounded-sm bg-gray-200
+            font-bold w-[280px]">
+
+            <p class="text-[11px] text-left mb-[15px]">
+                Get password 
+                <a href="#" class="text-blue-800
+                underline">click here</a>
+            </p>
+            
+            <div class="flex flex-row justify-between gap-4 
+            -mb-[60px]">
+                <button class="border rounded-[22px] px-10 py-2
+                font-bold bg-violet-950 text-white 
+                text-[15px]" id="signup">
+                    sign up
+                </button>
+               
+                <button class="border rounded-[22px] px-10 py-2
+                font-bold bg-gray-200 text-black
+                opacity-80 text-[15px]" id="signin">
+                    sign in
+                </button> 
+            </div> 
+        </div>        
+    </div>
+
+
+</body>
+
+<script>
+
+    const signUpbtn = document.getElementById("signup");
+    const signInbtn = document.getElementById("signin");
+    const titleChenger = document.getElementById("title");
+    const passwordIn = document.getElementById("password");
+    const nameField = document.getElementById("name");
+
+    signInbtn.onclick = function (){
+        nameField.style.display = 'none';
+        title.innerHTML = "Sign In";
+        signUpbtn.classList.add("disable");
+        signInbtn.classList.remove("disable");
+    }
+
+    signUpbtn.onclick = function (){
+        nameField.style.display = 'block';
+        titleChenger.innerHTML = "Sign Up";
+        signUpbtn.classList.remove("disable");
+        signInbtn.classList.add("disable");
+    }
+
+</script>
+
+</html>
