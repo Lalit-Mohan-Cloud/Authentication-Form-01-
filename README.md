@@ -26,7 +26,7 @@ This form is for learning and UI demonstration purposes only — it does not con
    - Open index.html in any web browser.
    - Try switching between Login and Signup forms.
 
-📸 Screenshot
+## 📸 Screenshot
 ![image alt](https://github.com/Lalit-Mohan-Cloud/Authentication-Form-01-/blob/main/image.png?raw=true) 
 
 
