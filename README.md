@@ -8,7 +8,6 @@ This form is for learning and UI demonstration purposes only — it does not con
    - 📝 Signup form with name, email, and password fields
    - 🔑 Login form with email and password
    - 🔄 Switch easily between login and signup forms
-   - 💻 Responsive design — works on mobile and desktop
    - 🎨 Simple and clean UI using CSS
 
 ## 🔧 How It Works
